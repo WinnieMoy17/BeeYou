@@ -1,0 +1,12 @@
+.wrapper {
+    width: 430px; /* Width of the iPhone 15 Pro */
+    height: 932px; /* Height of the iPhone 15 Pro */
+    margin: 0 auto; /* Center horizontally */
+    border: 1px solid #ccc; /* Optional: Border to visualize the wrapper */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visualization */
+    overflow: hidden; /* Prevent content from overflowing */
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #fff5bb;
+  }

@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    flex-direction: column;      /* Stack children vertically */
+    justify-content: center;     /* Center children vertically within .home */
+    align-items: center;         /* Center children horizontally within .home */
+    height: 100vh;               /* Full height of the viewport */
+    padding: 20px;
+    text-align: center;
+}
+
+.app-name-home {
+    font-size: 48px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFCE2B;
+    text-shadow: 3px 4px #4E2400;
+}
+
+img {
+    width: 230px;
+}
+
+.hook-line {
+    color:#4E2400;
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button {
+    height: 75px;
+    width: 350px;
+    margin-top: 40px;
+    background-color: #FFE17E;
+    border-radius: 17px;
+    border-color:#4E2400;
+    border-width: 3px 5px 5px 3px;
+
+    font-size: 20px;
+    color:#4E2400;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button:active {
+    outline: none;
+    opacity: 0.5;
+    background-color: rgba(255, 168, 0, 0.6);
+    border-width: 5px 3px 3px 5px;
+}
