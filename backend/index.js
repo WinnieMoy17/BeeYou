@@ -3,11 +3,14 @@ import { PORT, mongoDBURL } from "./config.js";
 import mongoose from "mongoose";
 import { User } from "./models/userModel.js";
 import userRoutes from './routes/userRoutes.js';
+import cors from 'cors';
+import bcrypt from 'bcrypt';
 
 const app = express(); 
 
 // Middleware for parsing request body (JSON)
 app.use(express.json()); 
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Hey! Time to Bee-You!');
